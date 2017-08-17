@@ -1,0 +1,182 @@
+body {}
+ul {
+	list-style:none;
+}
+#nav {
+	padding-bottom:10px;padding-top:10px;
+}
+#tname li {
+	height:30px;
+	width:30px;
+	margin:3px;
+	padding:20px 5px;
+	float:left;
+	margin-left:5px;
+	list-style:none;
+	padding-top:0;
+}
+.navbar-nav > li > a {
+	padding:6px 0 0 0;
+}
+.navbar {
+	background:#222222;
+	opacity:0.98;
+}
+.navbar-brand{
+	background:#222222;
+	font-family: 'Oswald', sans-serif;
+	color:white;font-size:20px;
+	padding:15px 0px; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.navbar-brand:hover{
+	background:black;
+	transition: background-color 0.5s ease;
+}
+.footer{
+	width:33.33%;
+}
+#sticky_footer{
+	position:fixed;
+	height:50px;
+	background:#222222;
+	color:white;
+	width:100%;
+	bottom:0;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	opacity:0.98;
+}
+#logo {
+	color:white;
+	font-size:34px; 
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	margin-left:20px;
+}
+#logo span{
+	color:#4CAF50; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.cell1{
+	margin:5px 0px 5px 0px;
+	padding:5px;
+	display:block;
+	width:590px;
+	background:#ececec;
+}
+.cell2{
+	margin:5px 0px 5px 0px;
+	padding:5px;
+	float:left;
+	display:block;
+	width:290px;
+	background:#ececec;
+}
+.cell3{
+	margin:5px 0px 5px 0px;
+	padding:5px;float:left;
+	display:block;width:190px;
+	background:#ececec;
+}
+.cell4{
+	margin:5px 0px 5px 0px;
+	padding:5px;float:left;
+	display:block;width:140px;
+	background:#ececec;
+}
+.cell5{margin:5px 0px 5px 0px;
+	padding:5px;float:left;
+	display:block;
+	width:110px;
+	background:#ececec;
+}
+.cell6{
+	margin:5px 0px 5px 0px;
+	padding:5px;float:left;
+	display:block;width:90px;
+	background:#ececec;
+}
+.clear{
+	clear:both;
+	margin-bottom:20px;
+}
+.ttitle{
+	margin-top:40px;
+}
+.titleimg img{
+	width:100px;
+	height:100px;
+}
+.titleimg{
+	width:100px;
+	height:100px;
+	float:left;
+}
+.titleteam{
+	width:200px;
+	font-size:40px;
+	float:left;
+	padding:20px;
+}
+.active{
+	display:block!important;
+}
+.inactive{
+	display:none!important;
+}
+.tabcontent {
+	display:none;
+}
+#teamtitle{
+	width:350px;float:
+	left;margin-left:20px;
+	font-family: 'Oswald', sans-serif;
+}
+.logosquadra{
+	width:90px;
+	float:left;
+}
+.btn_toggle{
+	background:#4CAF50;
+	width:100%;
+	color:white;
+	padding:10px;
+	width:100%;
+	display:block;
+	border-radius: 4px;
+	font-weight:bold
+}
+.btn_toggle:hover{
+	font-weight:bold;
+	color:white;
+	text-decoration:none;
+	background:#5F5F5F;
+}
+.btn_toggle:focus{
+	font-weight:bold;
+	color:white;
+	text-decoration:none;
+	background:#5F5F5F;
+}
+.btn_toggle img{
+	float:right;
+	margin-top:-2px;
+}
+.feed_story{
+	background:#ececec;
+	padding:5px 10px;
+	margin:5px 0;
+	border-radius: 4px;}
+@media screen and (max-width: 600px) {
+    .hideme {
+        display: none !important;
+    }
+}
+#banner_hp{
+	position:absolute;
+	top:175px;
+	color:white;
+	margin-left:20px;
+	font-family: 'Oswald', sans-serif;
+    font-size:48px;
+}
